@@ -1,0 +1,106 @@
+/* bodyの余白を0にする */
+body{
+  margin: 0;
+  padding: 0;
+}  
+
+body{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* ヘッダー */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  
+ }
+
+.wrapper {
+  max-width: 767px;
+  margin: 20px auto 20px auto;
+}
+
+ header .title {
+  width: 160px;
+  font-size: 34px;
+  padding: 0px 20px ;
+  border: solid 1px black;
+  }
+ 
+header nav  a{
+  color: black; 
+  text-decoration: none;
+  font-size: 34px;
+  margin-left: 50px;
+}
+
+/* メインビジュアル */
+.main_pic {
+  width: 100%;
+}
+
+img{
+  max-width: 100%;
+  margin: 0 auto;
+ }
+
+/* 自己紹介 */
+h2 {
+  font-size: 34px;
+  margin: 40px auto ;
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.about img {
+  border-radius: 50%;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.contents{
+  margin-left: -10px;
+}
+
+/* 趣味の写真の紹介 */
+.pic-contents {
+  display: flex;
+  justify-content: space-between;
+  text-align: center; 
+  }
+
+.content {
+  width: 33%;
+  padding: 20px 15px 20px;
+}  
+
+/* フッター */
+footer {
+  text-align: center;
+  margin: 40px auto;
+  height: 100%;
+}
+
+/* 横幅が767pxまでの場合 */
+@media (max-width:767px) {
+  .pic-contents {
+    display: block;
+    align-items: center;
+    width: 100%;
+  } 
+  .content{
+    width:  100%;
+    }
+}
+
