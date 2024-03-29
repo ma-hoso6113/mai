@@ -94,6 +94,13 @@ footer {
 
 /* 横幅が767pxまでの場合 */
 @media (max-width:767px) {
+  .about {
+    flex-direction: column;
+  }
+  .contents {
+    position: relative;
+    left:200px
+  }
   .pic-contents {
     display: block;
     align-items: center;
