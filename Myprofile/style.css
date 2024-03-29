@@ -98,8 +98,7 @@ footer {
     flex-direction: column;
   }
   .contents {
-    position: relative;
-    left:200px
+    margin-left: 20px;  
   }
   .pic-contents {
     display: block;
@@ -107,7 +106,7 @@ footer {
     width: 100%;
   } 
   .content{
-    width:  100%;
+   width: calc(100% - 30px);
     }
 }
 
