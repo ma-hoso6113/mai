@@ -17,7 +17,8 @@
 
     // メソッドを定義する 
     public function show_price(int $price){
-      $this->price =$price;
+      $this->price =250;
+      echo $this->price . '<br>';
     }     
     
     // コンストラクタを定義する
@@ -42,7 +43,9 @@
     
      // メソッドを定義する 
     public function show_height(int $height){
-      $this->height =$height;
+      $this->height =60;
+      echo $this->height . '<br>';
+      
     }
     
     // コンストラクタを定義する
@@ -56,11 +59,13 @@
     // インスタンス化する
     $animal = new animal('dog',60,5000);
     // インスタンス$animalの書くプロパティの値を出力する
-    print_r($animal);  
+    print_r($animal); 
+
+    echo '<br>';
 
     // メソッドにアクセスして実行する
-    $potato->show_price(250); 
-    $height->show_height(60);
+    $food->show_price(250);
+    $animal->show_height(60);
     ?>
   </p>
   
